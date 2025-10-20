@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 import { FlatList, View, Text } from "react-native";
 
 
-class ProductsList extends Component {
+class Products extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -71,4 +71,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default ProductsList;
+export default Products;

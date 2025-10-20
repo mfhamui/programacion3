@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import ProductsList from './src/screens/ProductsList/ProductsList';
+import Products from './src/screens/Products/Products';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.texto}>Probando FlatLists</Text>
-      <ProductsList/>
+      <Products/>
     </View>
   );
 }
