@@ -9,7 +9,7 @@ class Contador extends Component {
           contador: 0
         };
       }
-    click (){
+    clickear (){
         this.setState(
             {
                 contador: this.state.contador + 1
@@ -20,7 +20,7 @@ class Contador extends Component {
         return(
             <View>
                 <Text style={styles.textoDos}>Cantidad de clicks: {this.state.contador}  </Text>
-                <Pressable onPress={()=> this.click()} style={styles.boton}>
+                <Pressable onPress={()=> this.clickear()} style={styles.boton}>
                     <Text style={styles.texto}>Click aquí para contar </Text>
                 </Pressable>
             </View>
