@@ -1,7 +1,7 @@
 import  React  from "react";
 import { Text, View } from "react-native-web";
-import Boton from "../components/Boton/Boton";
-import Contador from "../components/Contador/Contador";
+import Boton from "../components/Boton";
+import Contador from "../components/Contador";
 import { StyleSheet } from "react-native";
 
 function Home(params) {
