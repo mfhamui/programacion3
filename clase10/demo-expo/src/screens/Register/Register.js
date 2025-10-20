@@ -15,6 +15,7 @@ class Register extends Component {
   
   onSubmit() {
     console.log(this.state);
+     this.props.navigation.navigate('Login')
   }
     render(){
     return(
