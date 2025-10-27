@@ -34,8 +34,8 @@ class Home extends Component {
                 
             <Text>Bienvenido!</Text>
              <DynamicForm/>
-
-             <FlatList     
+        <View style= {StyleSheet.FlatList}>
+             <FlatList 
              data={this.state.posts}
           keyExtractor={item=> item.id.toString()}
           renderItem={({ item }) => (
@@ -46,6 +46,7 @@ class Home extends Component {
               />
          
           )} />
+          </View>
         
       </View>
         
@@ -54,12 +55,15 @@ class Home extends Component {
 
 
 const style= StyleSheet.create({
+  FlatList: {
+    flex:1,
+     width: "100%"
+  },
     container: {
     flex: 1, 
-    justifyContent: "center", 
-    alignItems: "center", 
     paddingHorizontal: 10,
     marginTop:20,
+    width: "100%"
     }, 
 
       titulo: {

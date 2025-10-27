@@ -19,12 +19,18 @@ class Post extends Component {
 };
 
 const styles = StyleSheet.create({
+     FlatList: {
+    flex:1,
+     width: "100%"
+  },
   container: { 
+    flex: 1,
     borderWidth: 1,
     borderColor: "#ccc",
     borderRadius: 6,
     padding: 10,
     marginVertical: 5,
+    width: "100%"
   },
   email: {
     fontWeight: "bold",
@@ -34,10 +40,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginBottom: 4,
   },
-  fecha: {
-    fontSize: 12,
-    color: "#555",
-  },
+
 });
 
 export default Post;
